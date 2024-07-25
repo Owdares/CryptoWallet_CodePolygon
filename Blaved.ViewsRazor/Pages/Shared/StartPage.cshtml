@@ -1,0 +1,53 @@
+﻿@model Blaved.ViewsRazor.Pages.Shared.StartPage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центрирование логотипа и ссылок на изображения</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        #logo {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #image-links {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            background-color: #f0f0f0;
+            padding: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-link {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <img id="logo" src="@Model.SolutionPath/MainLogo.jpg" alt="Логотип @Model.SolutionPath">
+
+    <div id="image-links">
+        <img class="image-link" src="@Model.SolutionPath/MainLogo.jpg" alt="Изображение 1" onclick="window.location.href='https://example.com/link1'">
+        <img class="image-link" src="@Model.SolutionPath/MainLogo.jpg" alt="Изображение 2" onclick="window.location.href='https://example.com/link2'">
+        <img class="image-link" src="@Model.SolutionPath/MainLogo.jpg" alt="Изображение 3" onclick="window.location.href='https://example.com/link3'">
+    </div>
+
+</body>
+</html>

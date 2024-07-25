@@ -1,0 +1,20 @@
+﻿
+  {
+    "iisSettings": {
+      "windowsAuthentication": false,
+      "anonymousAuthentication": true,
+      "iisExpress": {
+        "applicationUrl": "http://localhost:8443;http://0.0.0.0.0:5000",
+        "sslPort": 44337
+      }
+    },
+    "profiles": {
+      "Telegram.Bot.Examples.WebHook": {
+        "commandName": "Project",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "http://localhost:8443;http://0.0.0.0.0:5000"
+      }
+    }
+  }

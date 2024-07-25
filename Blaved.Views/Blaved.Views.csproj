@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="3.1.1" />
+    <PackageReference Include="Telegram.Bot" Version="19.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blaved.Interfaces\Blaved.Interfaces.csproj" />
+    <ProjectReference Include="..\Blaved.Objects\Blaved.Objects.csproj" />
+    <ProjectReference Include="..\Blaved.Tools\Blaved.Utility.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,97 @@
+[
+  {
+    "Network": "BSC",
+    "Asset": "USDT",
+    "MinAmount": 0.3
+  },
+  {
+    "Network": "BSC",
+    "Asset": "USDC",
+    "MinAmount": 0.3
+  },
+  {
+    "Network": "BSC",
+    "Asset": "BNB",
+    "MinAmount": 0.0003
+  },
+  {
+    "Network": "BSC",
+    "Asset": "DOGE",
+    "MinAmount": 4
+  },
+  {
+    "Network": "BSC",
+    "Asset": "ADA",
+    "MinAmount": 0.5
+  },
+  {
+    "Network": "BSC",
+    "Asset": "LINK",
+    "MinAmount": 0.01
+  },
+  {
+    "Network": "BSC",
+    "Asset": "FTM",
+    "MinAmount": 0.7
+  },
+  {
+    "Network": "BSC",
+    "Asset": "SHIB",
+    "MinAmount": 30000
+  },
+  {
+    "Network": "ETH",
+    "Asset": "USDT",
+    "MinAmount": 20
+  },
+  {
+    "Network": "ETH",
+    "Asset": "USDC",
+    "MinAmount": 20
+  },
+  {
+    "Network": "ETH",
+    "Asset": "ETH",
+    "MinAmount": 0.003
+  },
+  {
+    "Network": "ETH",
+    "Asset": "SAND",
+    "MinAmount": 40
+  },
+  {
+    "Network": "ETH",
+    "Asset": "LINK",
+    "MinAmount": 1
+  },
+  {
+    "Network": "ETH",
+    "Asset": "FTM",
+    "MinAmount": 50
+  },
+  {
+    "Network": "ETH",
+    "Asset": "SHIB",
+    "MinAmount": 2000000
+  },
+  {
+    "Network": "MATIC",
+    "Asset": "USDT",
+    "MinAmount": 0.3
+  },
+  {
+    "Network": "MATIC",
+    "Asset": "USDC",
+    "MinAmount": 0.3
+  },
+  {
+    "Network": "MATIC",
+    "Asset": "MATIC",
+    "MinAmount": 0.1
+  },
+  {
+    "Network": "MATIC",
+    "Asset": "SAND",
+    "MinAmount": 0.5
+  }
+]
